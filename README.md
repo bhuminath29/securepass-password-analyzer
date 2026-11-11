@@ -8,6 +8,7 @@ SecurePass is an educational password analysis application built using Python an
 
 It evaluates password length, character diversity, common password patterns and repeated characters. It also calculates a simplified theoretical entropy estimate and provides improvement suggestions.
 
+
 ## ✨ Features
 
 - Password length analysis
@@ -116,3 +117,7 @@ Individual academic portfolio project
 **Author:** Bhumi Nath
 
 **GitHub:** https://github.com/bhuminath29
+
+## Application Preview
+
+![SecurePass Interface](./screenshots/securepass-interface.png)
