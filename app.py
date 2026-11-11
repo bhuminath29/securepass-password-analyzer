@@ -99,14 +99,18 @@ if submitted:
             )
 
             st.write(
-                "Common password:",
-                "❌ Detected" if result["common"] else "✅ Not detected"
+                "Common password sample list:",
+                "❌ Match found" if result["common"] else "✅ No match found"
             )
 
             st.write(
                 "Repeated characters:",
-                "❌ Detected" if result["repeated"] else "✅ Not detected"
+                "❌ Detected" if result["repeated"] else "✅ Not detected" 
             )
+            st.write(
+                "Sequential patterns:",
+                "❌ Detected" if result["sequence"] else "✅ Not detected"
+          )
 
         st.write(
             "Password length:",
