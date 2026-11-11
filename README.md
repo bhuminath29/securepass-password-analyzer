@@ -120,4 +120,4 @@ Individual academic portfolio project
 
 ## Application Preview
 
-![SecurePass Interface](./screenshots/securepass-interface.png)
+![SecurePass Interface](screenshots/securepass-interface.png)
